@@ -27,12 +27,10 @@ Things you may want to cover:
 
 ## usersテーブル
 
-|Column       |Type    |Options                |
-|nickname     |string  |null:false,unique: true|
-|age          |integer |null:false             |
-|job_id       |integer |null:false             |
-|gym_type_id  |integer |null:false             |
-|frequency_id |integer |null:false             |
+|Column       |Type    |Options                 |
+|nickname     |string  |null:false,unique: true |
+|age          |integer |null:false              |
+|frequency_id |integer |null:false              |
 
 ### Association
 has_many :tweets
